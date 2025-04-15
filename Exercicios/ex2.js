@@ -7,4 +7,4 @@ function maiorPalavra(frase) {
   return palavras.reduce((maior, atual) => atual.length > maior.length ? atual : maior, '');
 }
 
-console.log(maiorPalavra('Programar em JavaScript é muito divertido')); // Saída: JavaScript
+console.log(maiorPalavra('Aprender a programar em paralelepipedo é importante')); // Saída: maior palavra (ou seja o paralelepipedo)

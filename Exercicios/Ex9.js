@@ -6,7 +6,8 @@ function verificarPalindromo(palavra) {
     const palavraReversa = palavra.split('').reverse().join('');
     return palavra === palavraReversa;
   }
-  
-  console.log(verificarPalindromo('arara')); // Saída: true
-  console.log(verificarPalindromo('olá')); // Saída: false
+
+  console.log(verificarPalindromo('arara'));
+  console.log(verificarPalindromo('olá')); 
+  console.log(verificarPalindromo('anna')); 
   

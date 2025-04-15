@@ -7,5 +7,5 @@ function contarPalavrasComLetra(frase, letra) {
     return palavras.filter(palavra => palavra.toLowerCase().startsWith(letra.toLowerCase())).length;
   }
   
-  console.log(contarPalavrasComLetra('Amazônia é a maior floresta do mundo', 'a')); // Saída: 3
+  console.log(contarPalavrasComLetra('Amazônia é a maior floresta do mundo', 'a'));
   

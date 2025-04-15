@@ -11,6 +11,5 @@ function gerarSenha() {
     }
     return senha;
   }
-  
   console.log(gerarSenha());
   

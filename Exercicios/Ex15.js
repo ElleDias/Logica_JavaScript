@@ -6,6 +6,6 @@ function verificarEmail(email) {
     return email.includes('@') && email.includes('.');
   }
   
-  console.log(verificarEmail('teste@dominio.com')); // Saída: true
-  console.log(verificarEmail('teste@dominio')); // Saída: false
+  console.log(verificarEmail('teste@dominio.com')); 
+  console.log(verificarEmail('teste@dominio')); 
   

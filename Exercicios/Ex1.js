@@ -9,5 +9,4 @@ function formatarCPF(cpf) {
          cpf.slice(6, 9) + '-' +
          cpf.slice(9, 11);
 }
-
-console.log(formatarCPF('12345678901')); // Saída: 123.456.789-01
+console.log(formatarCPF('12345678901')); 

@@ -6,5 +6,5 @@ function filtrarPalavras(palavras) {
     return palavras.filter(palavra => palavra.length > 5);
   }
   
-  console.log(filtrarPalavras(['cachorro', 'gato', 'elefante', 'pato'])); // Saída: ['cachorro', 'elefante']
+  console.log(filtrarPalavras(['cachorro', 'gato', 'elefante', 'pato'])); 
   

@@ -3,8 +3,8 @@
 //  os caracteres que não são letras ou números, usando replace() com regex.
 
 function removerCaracteresEspeciais(texto) {
-    return texto.replace(/[^a-zA-Z0-9\s]/g, '');
+    return texto.replace(/[^a-zA-Z0-9\s]/g, ''); // remover caracteres especiais de uma string, e aqui vai a explicação bem simples:
   }
   
-  console.log(removerCaracteresEspeciais('Olá! Mundo. Como@ vai?')); // Saída: Olá Mundo Como vai
+  console.log(removerCaracteresEspeciais('Olá! Mundo. Como@ vai?'));
   

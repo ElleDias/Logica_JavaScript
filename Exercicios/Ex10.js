@@ -2,7 +2,7 @@
 //Peça uma frase e retorne a
  //palavra que mais se repete. Use split(), reduce() e um objeto como contador.
 
-function contarOcorrencias(frase) {
+function contarOcorrenciasDePalavras(frase) {
     const palavras = frase.split(' ');
     const contador = palavras.reduce((acc, palavra) => {
       acc[palavra] = (acc[palavra] || 0) + 1;
