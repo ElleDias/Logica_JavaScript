@@ -5,6 +5,5 @@
 function contarDigitos(texto) {
     return texto.split('').filter(caractere => !isNaN(caractere) && caractere !== ' ').length;
   }
-  
   console.log(contarDigitos('A senha é 12345 e tem 6 caracteres!'));
   
